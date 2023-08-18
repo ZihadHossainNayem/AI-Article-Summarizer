@@ -26,14 +26,14 @@ const Hero = () => {
         </button>
       </nav>
       {/* title + sub title */}
-      <h1 className="mt-12 md:mt-24 md:text-4xl text-3xl text-center font-bold">
+      <h1 className="mt-4 md:mt-12 md:text-4xl text-3xl text-center font-bold">
         Get the Summary of any Article powered by{" "}
         <span className="text-[#ff385c]">OpenAI</span>
       </h1>
       <h3 className="mt-4 md:mt-8 text-center text-gray-500">
         Dive into Article Summaries Enhanced by ChatGPT AI. Transform Lengthy
-        Reads into Bites of Wisdom, Empowering You to Learn More, Faster.
-        Experience Clarity, Expand Horizons
+        Reads into Bites of Wisdom, Empowering You to Learn More, Faster &
+        Experience Clarity.
       </h3>
     </div>
   );
