@@ -75,7 +75,7 @@ const Summary = () => {
         </form>
       </div>
       {/* articles url history */}
-      <div className="mt-2 md:px-6 px-4 border py-2 rounded-md">
+      <div className="mt-2 md:px-6 px-4 border py-2 rounded-md w-full lg:w-[65%] mx-auto">
         {articleList.slice(0, 5).map((item, index) => (
           <div key={index} onClick={() => setArticle(item)}>
             <div className="flex items-center py-2">
@@ -100,7 +100,7 @@ const Summary = () => {
       </div>
 
       {/* results */}
-      <div className="my-4">
+      <div className="my-4 w-full lg:w-[65%] mx-auto">
         {isFetching ? (
           <img
             src={loading}
